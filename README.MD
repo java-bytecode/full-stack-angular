@@ -38,5 +38,14 @@ Angular CLI helps with
 
 * Code Quality Checks.
 
+```
+npm install -g @angular/cli
+
+# To install a specific version
+npm install -g @angular/cli@7.0.3
+
+# To check version of ng
+ng version
+```
 
 
