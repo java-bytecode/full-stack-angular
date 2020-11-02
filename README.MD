@@ -13,6 +13,7 @@
 `-g`: installs the package globally. It makes the package available to all the node projects by installing to a system directory. Using this flag, doesn't list the dependency in **package.json**.
 
 ## System Architecture
+
 |   Frontend  |  AngularJS |
 |:-----------:|:----------:|
 |   Backend   | SpringBoot |
@@ -25,6 +26,22 @@
 **ECMA Script**: ECMAScript is Standard. Javascript is the implementation of ECMA Script.
 
 **Modern Javascript**: >=Implementation of ES6 or ES2015.
+
+**Javascript**
+```
+var x = 10
+x = "qwerty"
+console.log(x)
+```
+
+**Typescript**
+
+```
+var x: number = 10
+x = 2
+x = "qwerty" // Invalid
+console.log(x)
+```
 
 ## Angular CLI
 
