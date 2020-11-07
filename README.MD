@@ -64,7 +64,7 @@ How the service should be called?
  - HTTP (Over the web)
  - MQ (Communication over Queue)
 
-### REST
+## REST
 
 **Representational State Transfer**
 
@@ -104,6 +104,8 @@ Everything is a resource in REST. It is anything that you want to expose to the 
 `/users/todos` - todos is a resource.
 
 `/users/Cyber/todos/1` - the first todo resource of the user "Cyber".
+
+* **REST doesn't worry about the representation of the resource. There is no restriction on data exchange format.**
 
 **No Service Definition**
 
